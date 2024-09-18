@@ -1,0 +1,56 @@
+<div class="workspace-background">
+  <h2>Nuevo terreno</h2>
+  <div class="mb-3 row">
+    <div class="col-md-6">
+      <label for="nombre" class="form-label"
+          >Nombre:</label
+      >
+      <input class="form-control" type="text" id="nombre" aria-label="readonly input example">
+    </div>
+    <div class="col-md-6">
+      <label class="form-label" for="tipo-terreno">Tipo terreno:</label>
+      <select class="form-select" aria-label="Default select example" id="tipo-terreno">
+          <option selected>-Seleccionar</option>
+          <option value="1">Arcilloso</option>
+          <option value="2">Seco</option>
+          <option value="3">Medio</option>
+      </select>
+  </div>
+  </div>
+  
+  <div class="mb-3 row">
+      <div class="col-md-6">
+          <label class="form-label" for="area">Área:</label>
+          <input id="area" class="form-control" type="number" />
+      </div>
+      <div class="col-md-6">
+        <label class="form-label" for="unidad-medida">Unidad medida:</label>
+        <select class="form-select" aria-label="Default select example" id="unidad-medida">
+            <option selected>-Seleccionar</option>
+            <option value="1">Metros</option>
+            <option value="2">Hectárea</option>
+            <option value="3">Kilometro</option>
+        </select>
+      </div>
+  </div>
+
+  <div class="mb-3 row">
+    <div class="col-md-6">
+      <label for="latitud" class="form-label"
+          >Latitud:</label
+      >
+      <input class="form-control" type="text" id="latitud" aria-label="readonly input example">
+    </div>
+    <div class="col-md-6">
+      <label for="longitud" class="form-label"
+          >Longitud:</label
+      >
+      <input class="form-control" type="text" id="longitud" aria-label="readonly input example">
+    </div>
+  </div>
+
+  <!-- insertar mapa aquí -->
+
+  <button type="button" class="btn btn-success me-2">Crear</button>
+  <button type="button" class="btn btn-secondary">Cancelar</button>
+</div>
